@@ -1,0 +1,38 @@
+.body{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.bgvideo {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+}
+.p{
+    font-size: 300%;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+.category{
+    font-size: 200%;
+    cursor: pointer;
+}
+.category:hover{
+    color: aqua;
+}
+.display{
+    font-size: 160%;
+}
+.text{
+    color: aqua;
+}
+.text1{
+    color: black;
+    text-transform: uppercase;
+}
